@@ -1,0 +1,10 @@
+<!--<app-table [angebots]="angebots" heading="All Orders"></app-table>-->
+<!--<app-order-table [angebots]="angebots" heading="All Orders"></app-order-table>-->
+
+<div *ngIf="angebots">
+  <!--  <app-order-table [angebots]="angebots" heading="All Orders" (deleteOrderEmitter)="deleteOrder($event)"></app-order-table>-->
+  <app-order-table [angebots]="angebots" heading="All Orders"></app-order-table>
+</div>
+
+
+
